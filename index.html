@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Kids</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Game sum of kids</h1>
+
+        <article class="content-card">
+            <section class="seccion-left">
+                <div class="content-operation">
+                    <span id="suma"></span>
+                    <span class="result" id="result"></span>
+                </div>
+                <span class="msj" id="msj"></span>
+            </section>    
+            <section class="seccion-right">
+                <span class="opt" id="opt1" onclick="controlResponse(this)"></span>
+                <span class="opt" id="opt2" onclick="controlResponse(this)"></span>
+                <span class="opt" id="opt3" onclick="controlResponse(this)"></span>
+            </section>
+        </article>
+
+        <h5 class="firma">&copy by MarDev</h5>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
