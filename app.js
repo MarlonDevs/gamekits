@@ -42,7 +42,8 @@ function playStar() {
 
         opt1.innerHTML = sum + 1;
         opt3.innerHTML = sum - 1;
-    } else {
+    } 
+    if (optCorrecta == 2 ) {
         
         opt3.innerHTML = sum;
     
